@@ -2,8 +2,7 @@
 import React, { useState } from "react"
 import { ToggleButton, Box, Button, Typography, Table } from "@mui/material";
 import { Link } from "react-router-dom";
-import MultiSelect from "react-multiple-select-dropdown-lite"
-import "react-multiple-select-dropdown-lite/dist/index.css"
+
 import axios from "axios"
 import {backEndUrl} from "../backend"
 const high=[

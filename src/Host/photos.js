@@ -5,8 +5,7 @@
 import React, { useState } from "react"
 import { ToggleButton, Box, Button,ImageListItem ,ImageList,Typography, Table, Input, Icon } from "@mui/material";
 import { Link,useParams } from "react-router-dom";
-import MultiSelect from "react-multiple-select-dropdown-lite"
-import "react-multiple-select-dropdown-lite/dist/index.css"
+
 import { FormatColorResetSharp, PhotoSharp } from "@mui/icons-material";
 import axios from "axios";
 import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternateOutlined';
